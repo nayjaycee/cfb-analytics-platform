@@ -1,0 +1,47 @@
+# -------------------------------
+# Python / Virtual Environment
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.ipynb_checkpoints/
+.env
+*.env
+.venv/
+venv/
+
+# -------------------------------
+# IDE / System files
+# -------------------------------
+.DS_Store
+.idea/
+.vscode/
+
+# -------------------------------
+# Build / Packaging
+# -------------------------------
+*.egg-info/
+build/
+dist/
+
+# -------------------------------
+# Data (keep out of Git)
+# -------------------------------
+data/*.csv
+data/*.parquet
+data/raw/
+data/processed/
+*.db
+*.sqlite
+*.h5
+*.zip
+
+# -------------------------------
+# Logs / Temp
+# -------------------------------
+logs/
+*.log
+*.tmp
+
